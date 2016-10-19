@@ -1,0 +1,49 @@
+<Page  loaded="loaded" actionBarHidden="true" backgroundColor="#FFD600" backgroundSpanUnderStatusBar="true">
+
+	<ScrollView verticalAlignment="top">
+		<GridLayout 
+			columns="*" rows="*, auto"
+			class="color--primary" 	
+			verticalAlignment="stretch" horizontalAlignment="stretch">
+
+			<StackLayout col="0" row="0"
+				orientation="vertical" 
+				verticalAlignment="center"
+				paddingRight="20" paddingLeft="20">
+		
+				<Image src="~/shared/images/logo@350.png" stretch="false" 
+					horizontalAlignment="center"
+					verticalAlignment="center"/> 
+
+				<TextField 
+					id="email"
+					text="{{ email }}"
+					hint="Correo Electrónico o Nickname" 
+					keyboardType="email" 
+					autocorrect="false" 
+					autocapitalizationType="none" />
+
+				<TextField 
+					id="password"
+					hint="Contraseña"
+					secure="true"
+					text="{{ password }}"
+				/>
+			
+				<Button text="INICIAR SESION" class="color--white text--primary" tap="onSignin" />
+				<Button text="¿Olvidó su contraseña?" class="button-link" />
+			</StackLayout>
+
+			<StackLayout col="0" row="1"
+				orientation="vertical" 
+				verticalAlignment="center"
+				backgroundColor="white"
+				marginTop="15"
+				height="110"
+				paddingRight="20" paddingLeft="20">
+
+				<Button text="CREAR CUENTA" class="color--accent text--white" tap="onSignUpLink" />
+			</StackLayout>
+		</GridLayout>
+	</ScrollView>
+</Page>

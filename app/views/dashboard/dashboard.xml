@@ -1,0 +1,31 @@
+ <Page xmlns="http://www.nativescript.org/tns.xsd" xmlns:maps="nativescript-google-maps-sdk" loaded="loaded">
+
+  <TabView>
+   <TabView.items>
+
+    <TabViewItem title="Plazas">
+      <TabViewItem.view>
+        <StackLayout row="0" class="signup-view" android.systemIcon="ic_menu_back"
+          paddingRight="20" paddingLeft="20" paddingTop="20">
+
+          <SearchBar textFieldHintColor="#ccc" hint="Buscar Vehiculos" col="1" colSpan="2"   />
+        </StackLayout>
+      </TabViewItem.view>
+    </TabViewItem>
+
+    <TabViewItem title="Mapa">
+      <TabViewItem.view>
+        <GridLayout>
+          <maps:mapView latitude="4.7400011118532905" longitude="-74.09753143787384" 
+            zoom="13" bearing="{{ bearing }}" 
+            tilt="{{ tilt }}" padding="{{ padding }}" mapReady="onMapReady"  
+            markerSelect="onMarkerSelect" markerBeginDragging="onMarkerBeginDragging"
+            markerEndDragging="onMarkerEndDragging" markerDrag="onMarkerDrag"
+            cameraChanged="onCameraChanged" />
+        </GridLayout>
+      </TabViewItem.view>
+    </TabViewItem>
+
+   </TabView.items>
+  </TabView>
+</Page>

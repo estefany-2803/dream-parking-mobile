@@ -1,0 +1,31 @@
+<Page loaded="loaded" actionBarHidden="false" backgroundSpanUnderStatusBar="true">
+	<Page.actionBar>
+    <ActionBar title="Crear cuenta: Paso 1">
+    	<NavigationButton text="Volver" android.systemIcon="ic_menu_back" tap="onBack"/>
+    </ActionBar>
+  </Page.actionBar>
+
+	<ScrollView verticalAlignment="top">
+		<GridLayout columns="*" rows="*, *">
+
+			<StackLayout row="0" class="signup-view"
+				paddingRight="20" paddingLeft="20" paddingTop="20" >
+
+				<Image src="~/shared/images/icon.png" stretch="false" 
+					horizontalAlignment="center"
+					verticalAlignment="center"/> 
+
+				<Label class="title"
+					text="Cuenta Potato Koosh"/>
+
+				<Label class="paragraph"
+					textWrap="true"
+					text="Crea una sola cuenta y usala en todos nuestros servicios y aplicaciones. (Próximamente Redes Sociales)"/>
+			</StackLayout>
+
+			<StackLayout row="1" paddingRight="20" paddingLeft="20" paddingTop="20" paddingBottom="20">
+				<Button text="CREAR CUENTA POTATO" tap="goToStepTwo" class="color--accent text--white" />
+			</StackLayout>
+		</GridLayout>
+	</ScrollView>
+</Page>

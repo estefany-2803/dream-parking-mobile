@@ -1,0 +1,12 @@
+TextField {
+	margin: 0 0;
+	height: 50;
+	padding: 10;
+	background-color: #fff;
+	border-width: 1;
+	border-color: #ccc;
+}
+
+Button {
+	margin: 20 0;
+}

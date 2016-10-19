@@ -1,0 +1,28 @@
+{
+	"name": "dreamparking",
+	"main": "app.js",
+	"version": "0.2.0",
+	"author": "Hansel Morales <27hdmr@gmail.com>",
+	"description": "Aplicacion para encontar parqueadero de manera sencilla",
+	"license": "Apache-2.0",
+	"keywords": [
+		"telerik",
+		"mobile",
+		"nativescript",
+		"{N}",
+		"tns",
+		"appbuilder",
+		"template"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/NativeScript/template-hello-world.git"
+	},
+	"bugs": {
+		"url": "https://github.com/NativeScript/template-hello-world/issues"
+	},
+	"homepage": "https://github.com/NativeScript/template-hello-world",
+	"android": {
+		"v8Flags": "--expose_gc"
+	}
+}

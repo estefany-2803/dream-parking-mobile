@@ -1,0 +1,27 @@
+@import url("~/shared/styles/colors.css");
+
+ActionBar {
+	background-color: #FFD600;
+	color: #FFF;
+}
+
+Button {
+	border-radius: 2;
+	height: 60;
+}
+
+Button.button-link {
+	border-radius: 0;
+	color: #ccc;
+	height: 40;
+}
+
+Label.title {
+	margin: 5 0;
+	font-size: 20;
+}
+
+Label.paragraph {
+	margin: 20 0;
+	font-size: 16;
+}

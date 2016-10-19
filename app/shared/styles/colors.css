@@ -1,0 +1,23 @@
+.color--primary {
+	background-color: #F9A825;
+}
+
+.color--accent {
+	background-color: #424242;
+}
+
+.color--white {
+	background-color: #FFF;
+}
+
+.text--white {
+	color: #FFF;
+}
+
+.text--primary {
+	color: #F9A825;
+}
+
+.text--accent {
+	color: #424242;
+}
