@@ -9,7 +9,7 @@
       <TabViewItem.view>
         <GridLayout rows="100,*" columns="*" class="signup-view" android.systemIcon="ic_menu_back"
           paddingRight="20" paddingLeft="20" paddingTop="20">
-          <SearchBar textFieldHintColor="#ccc" row="0" hint="Buscar Plazas Disponibles" col="0" colSpan="2" />
+          <Button row="0" col="0" tap="onUpdatePlazas" text="Refrescar Plazas"/>
 
           <ListView items="{{ plazas }}" row="1" col="0">
              <ListView.itemTemplate>
